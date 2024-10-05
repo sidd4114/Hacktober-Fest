@@ -5,6 +5,6 @@ print(f"Sum:{sum}")
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 
-print("Sum: ", Sum)  # Incorrect print syntax for variables
+# print("Sum: ", Sum)  # Incorrect print syntax for variables
 
 

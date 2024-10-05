@@ -6,6 +6,6 @@ int main() {
     for (int i = 0; i <= 5; i++) {
         sum += arr[i];
     }
-    printf("Sum of array elements: %d\n", sum);
-    return 0;
+    printf("Sum of array elements is: %d\n", sum);
+    return 0;
 }

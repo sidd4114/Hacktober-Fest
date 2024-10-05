@@ -3,7 +3,9 @@ int main() {
     if (1) {
         printf("True");
     }
+    else
+    {
     printf("False");
-    return 0;
+    }
+    return 0;
 }
- 

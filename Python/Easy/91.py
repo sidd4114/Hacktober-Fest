@@ -1,5 +1,7 @@
-try
+try:
     file = open('file.txt', 'r')
     content = file.read()
-finally
+except FileNotFoundError as e:
+    print(f"error found:{e}")
+finally:
     file.close()

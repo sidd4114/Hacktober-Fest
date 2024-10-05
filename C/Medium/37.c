@@ -1,8 +1,17 @@
 // Complete the code to gnerate a multiplication table
 
+
 #include <stdio.h>
 void print_table(int multiplier, int num){
-    	        int product;
+    	  int product;
+    	  for(int i=1;i<=num;i++)
+    	  {
+    	    product=num*i;
+    	    printf("%d\t",num);
+    	    printf("*\t");
+    	    printf("%d\t",i);
+    	    printf("%d\n",product);
+    	  }
     	}
 int main(){
 int num , multiplier;
@@ -13,5 +22,5 @@ int num , multiplier;
  	
  	      	print_table(multiplier, num);
  	
-	    return 0;
+	    return 0;
 }

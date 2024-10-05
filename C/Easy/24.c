@@ -12,5 +12,5 @@ int main() {
         printf("Sorry! You are not eligible for a license.\n");
     }
 
-    return 0;
+    return 0;
 }

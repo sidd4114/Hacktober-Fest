@@ -3,7 +3,7 @@
 
 struct Node {
     int data;
-    struct Node* next
+    struct Node* next;
 };
 
 int main() {
@@ -20,5 +20,5 @@ int main() {
     second->next = NULL;
     
     printf("Linked list: %d -> %d", head->data, second->data);
-    return 0;
+    return 0;
 }

@@ -1,2 +1,2 @@
-Import math:
-print(math.trunc(5.677)
+import math
+print(math.trunc(5.677))

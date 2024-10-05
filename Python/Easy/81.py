@@ -1,2 +1,2 @@
-person = {'name': 'John','age': 30,'city': 'New York''country': 'USA'}
+person = {'name': 'John','age': 30,'city': 'New York','country': 'USA'}
 print(person)

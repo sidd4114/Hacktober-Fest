@@ -1,11 +1,11 @@
-
 #include <stdio.h>
+void printMessage();
 
-int main() {
+void main() {
     printMessage();
-    return 0;
+    return;
 }
 
 void printMessage() {
-    printf("Hello, World!\n");
+    printf("Hello, World!\n");
 }
